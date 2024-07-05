@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     startBtn.addEventListener("click", function() {
         randomArr = [generateRandom(), generateRandom(), generateRandom(), generateRandom()];
-        // h2.textContent = JSON.stringify(randomArr);
+        h2.textContent = JSON.stringify(randomArr);
     });
 
     restartBtn.addEventListener("click", function() {
