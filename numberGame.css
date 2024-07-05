@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+}
+#img-lock {
+    width: 100px;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#head-text {
+    color: white;
+    margin-left: 50px;
+}
+button {
+    margin: 5px auto;
+    display: block;
+    background-color: goldenrod;
+    color: white;
+    width: 180px;
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: bold;
+    border: solid white;
+    border-radius: 2px;
+}
+input {
+    border: solid black;
+    width: 30px;
+    height: 20px;
+}
+#restart-btn {
+    margin-bottom: 20px;
+}
+p {
+    color: white;
+}
+h3 {
+    color: white;
+}
+ul {
+    color: white;
+    text-align: start;
+}
+h2 {
+    color: white;
+}
+
